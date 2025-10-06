@@ -1,21 +1,21 @@
-# 🤖 RAG with Ollama and Streamlit
+# RAG with Ollama and Streamlit
 
 This project demonstrates a **Retrieval-Augmented Generation (RAG)** app using **Ollama** (local LLM), **FAISS** (vector store), and **Streamlit** (UI).  
 It loads a **Machine Learning PDF from the web**, creates embeddings, retrieves relevant chunks, and generates grounded answers — all locally.
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🧩 Load a Machine Learning research paper directly from the web  
-- 🧮 Generate embeddings using **OllamaEmbeddings** or **HuggingFaceEmbeddings**  
-- 🔍 Store and retrieve text chunks with **FAISS**  
-- 💬 Answer user questions interactively in a **Streamlit UI**  
-- ⚡ Cache resources for faster repeated queries  
+- Load a Machine Learning research paper directly from the web  
+- Generate embeddings using **OllamaEmbeddings** or **HuggingFaceEmbeddings**  
+- Store and retrieve text chunks with **FAISS**  
+- Answer user questions interactively in a **Streamlit UI**  
+- Cache resources for faster repeated queries  
 
 ---
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 | Component | Description |
 |------------|-------------|
@@ -27,7 +27,7 @@ It loads a **Machine Learning PDF from the web**, creates embeddings, retrieves 
 
 ---
 
-## 📦 Installation
+## Installation
 
 ### 1. Install Ollama
 
@@ -47,6 +47,6 @@ ollama list
 git clone <repo-url>
 cd <repo-folder>
 
-pip install -r requirements.txt
+pip install -r requirements.txt or uv pip install -r requirements.txt
 
 streamlit run rag_ollama_ml.py
